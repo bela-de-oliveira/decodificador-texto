@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/programming-coding-icon-free-vector.png" type="image/x-icon">
+
+    <title>Sprint 01-Codificador e decodificador</title>
+    
+</head>
+
+<body>
+    
+    <main class="container">
+        <a href="index.html"><img class="cabecalho" src="./assets/Frame 6.png" alt="Logo da Alura"></a>
+            <div class="container__principal">
+            <div class="container__texto__botoes">
+                <textarea id="input-texto" class="container__texto"  placeholder="Digite seu texto"></textarea>
+                <p class="container__texto__aviso"><img src="./assets/bi_exclamation-circle-fill.png"> Apenas letras minúsculas, sem acentos ou caracteres especiais</p>
+                
+                <div class="container__botao">
+                    <button onclick="criptografarTexto()" class="botao__criptografar">Criptografar</button>
+                    <button onclick="descriptografarTexto()" class="botao__descriptografar">Descriptografar</button>
+                </div>                
+           </div>
+           
+           <div class="container__saida">
+                <!-- <img class="imagem__saida" src="./assets/High quality products 1 1.svg" alt="Buscando mensagem">
+                <h2 class="alerta__saida">Nenhuma mensagem encontrada</h2>
+                <p class="comando__saida">Digite um texto que você deseja criptografar ou descriptografar.</p> -->
+                <textarea id="output-texto" class="criptografia__saida" readonly placeholder=""></textarea>
+                <button onclick="copiarResultado()" id="copiar" class="botao__copiar">Copiar</button>
+            </div>
+
+        </div> 
+           
+    </main>
+    <footer>
+        <p class="rodape">Desenvolvido por: <a class="rodape__link" href="https://github.com/bela-de-oliveira" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github" alt="logo-github"></ion-icon> Bela de Oliveira</a></p>
+    </footer>
+
+    <script src="/scripts/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

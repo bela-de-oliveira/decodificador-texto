@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root{
+    --cor-primaria: #ADBC9F;
+    --cor-secundaria: #FBFADA;
+    --cor-terciaria: #12372a;
+    --cor-quartenaria: #436850;
+    --cor-hover: #595357;
+
+    --fonte: 'Montserrat', sans-serif;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    font-family: var(--fonte);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+   }
+
+.cabecalho {
+   margin-bottom: 30px;
+    
+}
+
+.container {
+    margin: 2.5rem;
+}
+
+.container__principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+
+.container__texto__botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1.5rem;
+}
+
+.container__texto {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+    height: 37.5rem;;
+    line-height: 3rem;;
+    text-justify: auto;
+}
+
+.container__texto__aviso {
+    color: var(--cor-quartenaria);
+    font-size: 1rem;
+}
+
+.container__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+    
+    margin-bottom: 2.5rem;
+}
+
+.botao__criptografar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-terciaria);
+    width: 20.5rem;;
+    text-align: center;
+    border: 0.125px solid var(--cor-terciaria);
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.botao__criptografar:hover {
+    background-color: var(--cor-hover);
+}
+
+.botao__descriptografar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-quartenaria);
+    width: 20.5rem;;
+    text-align: center;
+    border: 0.125px solid var(--cor-terciaria);
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.botao__descriptografar:hover {
+    background-color: var(--cor-hover);
+}
+
+.container__saida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    background-color: var(--cor-secundaria);
+    min-width: 21.1875rem;
+    width: 33%;
+    height: 50rem;
+ 
+    box-shadow: 0px 1.5rem 2rem -0.5rem var(--cor-terciaria);
+    border-radius: 2rem;
+}
+
+/* .imagem__saida {
+    margin-top: 2rem;;
+}
+
+.alerta__saida {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+.comando__saida {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+} */
+
+.botao__copiar {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-secundaria);
+    width: 20.5rem;
+    text-align: center;
+    border: 0.125px solid var(--cor-quartenaria);
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-quartenaria);
+    cursor: pointer;
+}
+
+.botao__copiar:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
+.criptografia__saida {
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+    line-height: 3rem;;
+    /* text-justify: auto; */
+    margin-top: 2.5rem;
+    width: 82%;
+    height: 78%;
+}
+
+.rodape {
+    padding: 0.75rem;
+    color: var(--cor-primaria);
+    text-decoration: none; 
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.rodape__link {
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.rodape__link:hover {
+    text-decoration-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+ 
+    font-weight: 400;
+    background: none;
+}
+ 

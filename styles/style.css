@@ -124,24 +124,6 @@ body {
     border-radius: 2rem;
 }
 
-/* .imagem__saida {
-    margin-top: 2rem;;
-}
-
-.alerta__saida {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5rem; 
-}
-
-.comando__saida {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1rem;
-} */
-
 .botao__copiar {
     display: flex;
     justify-content: space-around;

@@ -5,8 +5,10 @@
 ## 📖 Sobre
 Projeto proposto dentro do curso de formação *Iniciante em Programação T6 - ONE*, uma parceria de ensino entre **Alura** e **Oracle**.
 
+## 🔗 Link de teste
+https://bela-de-oliveira.github.io/decodificador-texto/
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias utilizadas
 
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">

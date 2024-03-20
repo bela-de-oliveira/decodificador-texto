@@ -24,7 +24,6 @@ body {
 
 .cabecalho {
    margin-bottom: 30px;
-    
 }
 
 .container {
@@ -36,7 +35,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* justify-content: space-evenly; */
+    gap: 2.5rem;
 }
 
 .container__texto__botoes {
@@ -149,7 +148,6 @@ body {
     color: var(--cor-terciaria);
     font-size: 2rem;
     line-height: 3rem;;
-    /* text-justify: auto; */
     margin-top: 2.5rem;
     width: 82%;
     height: 78%;
@@ -182,5 +180,4 @@ textarea {
  
     font-weight: 400;
     background: none;
-}
- 
+} 
